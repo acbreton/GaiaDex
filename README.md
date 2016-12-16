@@ -11,6 +11,6 @@ between letters and numbers in the hopes that I would find it eventually.
 
 And that's why I decided to create this app for my Android.  It's been pretty cool so far!
 
-Here's a link for more information about the synth: https://www.roland.com/us/products/gaia_sh-01/ \
+Here's a link for more information about the synth: https://www.roland.com/us/products/gaia_sh-01/
 
 Thanks for watching.
