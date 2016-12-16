@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:weightSum="1">
+
+        <!-- XML file for each single sign as they are created as Buttons -->
+        <ImageView
+            android:src="@drawable/ic_bank_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bankView"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- When sign is pressed, fullscreen aci is initialized -->
+</LinearLayout>
+

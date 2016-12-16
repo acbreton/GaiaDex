@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:longClickable="true">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/patchNumImage"
+        android:src="@drawable/ic_patch_one"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Patch Title"
+        android:paddingTop="8dp"
+        android:id="@+id/patchTitle"
+        android:layout_alignTop="@+id/patchNumImage"
+        android:layout_alignStart="@+id/patchCategory"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category"
+        android:id="@+id/patchCategory"
+        android:layout_below="@+id/patchTitle"
+        android:layout_toEndOf="@+id/patchNumImage"/>
+
+
+</RelativeLayout>
+

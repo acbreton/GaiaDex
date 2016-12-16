@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GaiaDex</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_patch_list">PatchList</string>
+    <string-array name="menuItems">
+        <item>Edit Patch</item>
+        <item>Clear Patch</item>
+        <item>Go Back</item>
+    </string-array>
+</resources>

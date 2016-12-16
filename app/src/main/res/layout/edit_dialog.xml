@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/userPatchTitle"
+        android:hint="Patch Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/userPatchNum"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/userPatchCategory"
+        android:hint="Patch Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/userPatchTitle"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirmPatch"
+        android:layout_below="@+id/userPatchCategory"
+        android:onClick="editPatchClick"
+        android:layout_centerInParent="true"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/confirmPatch"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
